@@ -1,0 +1,6 @@
+         <--For Video-->
+1.coltrons --> to control the video.
+2.autoplay -->Try to autoplay the video.
+3.loop --> The video become run in a loop.
+4.muted --> The video should be mute.
+5.poster --> specific an image to be displayed before the video starts display.

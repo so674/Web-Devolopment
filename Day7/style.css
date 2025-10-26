@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(217, 227, 227);
+}
+a {
+    background-color: blue;
+}
+span{
+    background-color: brown;
+}
+input{
+    background-color:orange;
+}
+small{
+    background: orange;
+}
+h1{
+    background-color: chartreuse;
+}
+
+nav{
+    background-color: black;
+}

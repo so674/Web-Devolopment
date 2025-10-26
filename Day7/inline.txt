@@ -1,0 +1,25 @@
+<a>: Anchor or hyperlink.
+<img>: Image.
+<span>: Generic inline container.
+<input>: Input field.
+<label>: Label for a form element.
+<strong>: Strong emphasis.
+<em>: Emphasized text.
+<br>: Line break.
+<code>: Code snippet.
+<b>: Bold text.
+<i>: Italic text.
+<u>: Underlined text.
+<small>: Smaller text.
+<sub>: Subscript.
+<sup>: Superscript.
+<mark>: Marked or highlighted text.
+<q>: Short inline quotation.
+<cite>: Citation.
+<kbd>: Keyboard input.
+<samp>: Sample output.
+<var>: Variable in a mathematical expression or programming context.
+<time>: Time.
+<abbr>: Abbreviation.
+<data>: Machine-readable translation of content.
+<acronym>: Acronym (Not supported in HTML5).
