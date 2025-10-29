@@ -1,0 +1,42 @@
+background{
+    color: black;
+}
+div{
+    background-color:rgb(255, 72, 0) ;
+}
+.red{
+    background-color: antiquewhite;
+}
+#green{
+    background-color: green;
+}
+#a{
+    background-color: aqua;
+    font-size: x-large;
+}
+div>p{
+    background-color: rgb(64, 225, 64)
+}
+div>h3{
+    background-color: aliceblue;
+}
+
+div p{
+    background-color: blue;
+}
+*{
+    margin:0;
+    padding:0;
+}
+a:visited{
+    color: rgb(2, 3, 19);
+}
+/* a:link{
+    color:rgb(255, 60, 0);
+} */
+ a:hover{
+    color: rgb(195, 112, 4);
+ }
+ a:action{
+    color: yellowgreen;
+ }

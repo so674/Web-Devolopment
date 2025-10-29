@@ -1,0 +1,31 @@
+Selector
+1.class selector.(.class)
+2.Id    selector.(#ID)
+3.child selector (inside the div is access element but inside the div if there is any other div and then the element stays, then is can not access the element.)
+4.Descendand Selector(it access any paragraph.)
+5.Universal selector(*)
+6.pseudo selector( :visited{})
+
+<a href="https://www.google.com" target="_blank">Go To Google</a>
+
+<style>
+/* default link color */
+a:link {
+  color: blue;
+}
+
+/* after it has been visited */
+a:visited {
+  color: purple;
+}
+
+/* when mouse hovers over */
+a:hover {
+  color: red;
+}
+
+/* when link is clicked */
+a:active {
+  color: green;
+}
+</style>
