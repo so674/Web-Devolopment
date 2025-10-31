@@ -1,0 +1,28 @@
+At first Id seclector should check in this case 
+.a{
+    color: aqua;
+}
+.b{
+    color: beige;
+}
+.c{
+    color: black;
+}
+#u{
+    color: chartreuse;  
+}       
+
+so, #u should work in this case .(color should be chartreuse)
+
+second case-the inline seclector should be work first.
+moral of the thing (UNIVERSAL RULE) that atfirst inline seloctor should work then the ID selector should work and then the class selector should be work
+{
+    Inline selector> ID selector > Class selector 
+    
+
+    --> Important tag --> it should over write the Inline selector.
+    (!Important) should work before Inline Selector.
+    .v{
+    color: chocolate!important;
+} 
+}
