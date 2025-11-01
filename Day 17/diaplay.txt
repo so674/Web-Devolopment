@@ -1,0 +1,5 @@
+display: block;
+display: inline; 
+display: none; 
+display: grid;
+display: flex;

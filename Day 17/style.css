@@ -1,0 +1,22 @@
+.box {
+    background-color: rgb(234, 138, 21);
+    display: inline;
+}
+
+* {
+    margin: 40px;
+    padding: 5px;
+}
+
+.a {
+    background-color: yellowgreen;
+
+}
+
+.b {
+
+    display: table;
+    padding: 30px;
+    border: 2px solid black;
+    margin: 2px solid blue;
+}
