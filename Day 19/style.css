@@ -1,0 +1,29 @@
+.box{
+    border: 2px solid black;
+    box-shadow: 5px 5px 15px 5px blue;
+}
+.box1{
+    color: rgb(185, 185, 14);
+    margin-top: 67px;
+    padding: 30px;
+    border:4px solid rgb(193, 18, 18);
+    box-shadow:3px 5px 10px 7px rgb(28, 8, 154);
+}
+.box2{
+    border:3px solid green;
+    margin-top:67px;
+    padding:50px;
+    box-shadow: 2px 2px 5px 4px yellow;
+}
+.para{
+    text-shadow: 1px 1px 6px violet ;
+}
+@media (max-width: 600px) {
+  body {
+    background-color: rgb(241, 243, 244);
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+}
