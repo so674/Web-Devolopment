@@ -1,0 +1,9 @@
+.box{
+    width:10vw;
+    height:10vh;
+    border:2px solid black;
+    /* overflow: scroll; */
+    overflow-x:hidden;
+    overflow-y:scroll;
+    background-color: aqua;
+}
