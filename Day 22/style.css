@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --color: rgb(237, 237, 237);
+    --semicolor: rgb(16, 236, 49);
+}
+.container {
+    background-color: rgb(197, 97, 3);
+    display: flex;
+    padding: 67px;
+}
+
+.box {
+    background-color: var(--color);
+    display: flex;
+    padding: 67px;
+}
+
+ul li {
+    list-style: none;
+}
+.bl{
+    background-color: var(--semicolor);
+    padding:67px;
+}
+
+.chakra{
+    display: flex;
+    padding:67px;
+    --semicolor: rgb(16, 144, 236);
+    background-color:var(--semicolor) ;
+    list-style: none;
+}
