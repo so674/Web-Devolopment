@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(215, 21, 163);
+}
+:root{
+    --color:rgb(12, 224, 199);
+}
+.box{
+    background-color: var(--color);
+}
+@media  only screen and (max-width:455px) {
+    body{
+        background-color: green;
+    }
+}
