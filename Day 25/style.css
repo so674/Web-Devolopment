@@ -1,0 +1,43 @@
+.container {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction:row;
+    align-content:flex-start;
+    flex-wrap: wrap;
+
+
+}
+
+:root {
+    --color: rgba(246, 248, 247, 0.367);
+}
+
+.item {
+    height: 67px;
+    width: 67px;
+    background-color: aquamarine;
+    border: 5px solid rgb(5, 0, 21)
+}
+
+@media only screen and (max-width:455px) {
+    body {
+        background-color: var(--color);
+
+    }
+
+}
+.box{
+border: 3px solid red;
+display:flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content: flex-end;
+}
+.glass{
+    height: 67px;
+    width: 67px;
+    border: 2px solid blue ;
+    background-color: rgb(2, 195, 57);
+}
