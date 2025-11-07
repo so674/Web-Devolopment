@@ -1,0 +1,32 @@
+/* div{
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+    display:block;
+    border:3px solid black;
+    padding:40px;
+} */
+
+/* .container{
+    height: 30px;
+    width: 30px;    
+    background-color: aqua;
+    display:inline-block;
+    border:2px solid black;
+} */
+
+/* .flex{
+    height:30px;
+    width:30px;
+    background-color: blue;
+    display: flex;
+    border:2px solid violet;
+} */
+
+/* .grid{
+    height:30px;
+    width:30px;
+    background-color: aqua;
+    border:2px solid black;
+    display:grid;
+} */
