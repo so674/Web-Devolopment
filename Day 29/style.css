@@ -1,0 +1,70 @@
+     .container {
+         height: 80vh;
+         width: 30vw;
+         background-color: aquamarine;
+         border: 2px solid black;
+     }
+
+     .box {
+         height: 34px;
+         width: 45px;
+         background-color: blue;
+         border: 2px solid red;
+         animation-name: variable;
+         animation-duration: 3s;
+         animation-timing-function: ease-in-out;
+         animation-delay: 1s;
+         animation-iteration-count: 1;
+     }
+
+     @keyframes variable {
+         from {
+             transform: translateX(10px);
+         }
+
+         to {
+             transform: translateX(150px);
+             background-color: black;
+         }
+     }
+
+     .parent {
+         height: 50vh;
+         width: 36vw;
+         background-color: yellow;
+
+
+     }
+
+     .child {
+         height: 29px;
+         width: 100px;
+         background-color: rgb(69, 184, 16);
+         animation-name: data;
+         animation-duration: 3s;
+         animation-timing-function: ease-end;
+         animation-delay: 1s;
+         animation-iteration-count: 1;
+
+
+     }
+
+     @keyframes data {
+         0% {
+             transform: translateX(0);
+             background-color: blueviolet;
+
+         }
+
+         50% {
+             transform: translateX(150px);
+             ;
+             background-color: red;
+         }
+
+         100% {
+             transform: translateX(300px);
+             ;
+             background-color: green;
+         }
+     }

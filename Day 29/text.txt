@@ -1,0 +1,14 @@
+1.animation-name--Specifies which animation (by name) to apply to the element.
+   You define the animation using @keyframes.
+2.animation-duration--Sets how long the animation takes to complete one cycle.
+3.animation-timing--function-Controls the speed curve of the animation — how the animation accelerates and decelerates.
+(linear → constant speed
+ease → slow start, fast middle, slow end
+ease-in → slow start
+ease-out → slow end
+ease-in-out → slow start and end
+cubic-bezier(x1, y1, x2, y2) → custom curve)
+4.animation-delay--Sets how long to wait before the animation starts.
+5.animation-iteration-count--Defines how many times the animation should repeat.
+(a number (1, 2, 3, …)
+infinite → keeps looping forever)
