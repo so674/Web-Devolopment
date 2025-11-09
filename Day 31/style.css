@@ -1,0 +1,15 @@
+.image1{
+    object-fit: cover;
+    filter: blur(20px);
+}
+
+.image2{
+    filter: brightness(5);
+}
+
+.image3{
+    /* filter: url("https://tse2.mm.bing.net/th/id/OIF.NdbKvMCLqFsCqWQx5d1gJg?pid=Api&P=0&h=180"); */
+    filter: invert();
+}
+
+
