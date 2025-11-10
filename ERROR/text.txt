@@ -1,0 +1,68 @@
+1.Test Network ERROR---Unable to connect. Please check your internet connection.
+Error type: Network Error
+Status code: N/A
+What happened: The browser could not reach the server.
+Why it happened: Possible: no internet, server down, DNS/firewall issues.
+What you should do: Check internet or try again later.
+
+
+2.Test 404 Error--The resource you requested could not be found.
+Error type: HTTP 404: Not Found
+Status code: 404
+What happened: Requested page/resource does not exist on server.
+Why it happened: Mistyped URL or missing file on server.
+What you should do: Check the address, or try another link.
+
+
+3.Test 500 ERROR---Server error. Please try again later.
+Error type: HTTP 500: Internal Server Error
+Status code: 500
+What happened: Server could not process the request due to internal issue.
+Why it happened: Bug, overload, or misconfiguration.
+What you should do: Try again later or notify website support.
+
+
+4.Test Timeline--Request timed out. Please try again.
+Error type: Timeout Error
+Status code: 408
+What happened: Operation took too long; server did not respond in time.
+Why it happened: Slow network, server overload, large data.
+What you should do: Retry, check internet, or try at another time.
+
+5.Test Success--Connection successful! You received the server response.
+Error type: Success
+Status code: 200
+What happened: Browser reached the server and received the expected response.
+Why it happened: Network OK, request was valid.
+What you should do: No action needed. Everything works
+
+
+
+try {
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error('Server error!');
+  }
+  const data = await response.json();
+} catch (error) {
+  console.log('Connection failed!');
+}
+          
+
+if (response.status === 404) {
+  // Handle not found
+} else if (response.status === 500) {
+  // Handle server error
+}
+          
+
+// Using AbortController for timeouts
+const controller = new AbortController();
+setTimeout(() => controller.abort(), 5000);
+try {
+  const response = await fetch(url, { signal: controller.signal });
+} catch (error) {
+  if (error.name === 'AbortError') {
+    console.log('Request timed out!');
+  }
+}
